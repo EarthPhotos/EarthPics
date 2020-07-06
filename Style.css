@@ -1,0 +1,90 @@
+
+
+button{
+	color:#b5c9bb;
+	font-weight:bold;
+	color:#f9fcf7;
+}
+.title{
+	font-size:200%;
+	color: #FFFFFF;
+	background: #232323;
+	text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+	margin-top:2%;
+	margin-left:5px;
+}
+header{
+	height:150px;
+	border:1px solid #060805;
+	text-align:center;
+}
+header img:hover{
+	box-shadow: 4px 4px 5px #47a632;
+}
+main{
+	height:100vh;
+	border:1px solid #060805;
+}
+figure{
+	display:inline-block;
+	width:32%;
+}
+header img{
+	height:90px;
+	display:inline-block;
+	margin-top:28px;
+	border:2px solid #060805;
+	border-radius:10px;
+}
+main div{
+	width:50px;
+	height:50px;
+	border:1px solid #f9fcf7;
+	position:fixed;
+	right:1px;
+	visibility:hidden;
+}
+main a{
+	text-decoration:none !important;
+	font-size:450%;
+	position:relative;
+	top:-20px;
+	left:2px;
+	color:#f9fcf7;
+}
+
+
+main img{
+	margin:20px 0px 0px 50px;
+	max-width:20%;
+	height:auto;
+	display:inline-block;
+	border:1px solid #ddd;
+	border-radius:4px;
+	padding:5px;
+	overflow:hidden;	
+}
+main img:hover{
+	box-shadow: 2px 2px 5px #060805;
+}
+.active{
+	border:4px solid #1adb1d;
+}
+
+@media all and (min-width:900px){
+	header{
+		height:100vh;
+		width:200px;
+		float:left;
+	}
+	figure{
+		float:none;
+		display:block;
+		margin:0 auto;
+	}
+	
+	header img{
+		width:150px;
+		margin-left:-43px;
+	}
+}

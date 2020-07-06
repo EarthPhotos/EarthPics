@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<meta charset="utf-8">
+			<title>Mountains</title>
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+			<link rel="stylesheet" href="Style.css">
+			<script src="Java.js"></script>
+		</head>
+			<body>
+			<div class="lightbox">
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+							Environmental Agencies
+					</button>
+					<p class="title">Earthscape Photos</p>	
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						
+						<li class="first"><a href="https://www.epa.gov/" style="color:white">EPA</a></li>
+						<li><a href="https://www.noaa.gov/" style="color:white">NOAA</a></li>
+						<li><a href="https://www.fs.usda.gov/" style="color:white">USDA Forest Service</a></li>
+					</ul>		
+				
+				</div>
+			</div>
+		</nav>
+		<header>
+		<figure>
+			<a href="Forests.html"><img src="Images/Forest.jpg" alt="forest"></a>
+		<figcaption>Forests</figcaption>
+		</figure>
+		<figure>
+			<a href="Oceans.html"><img src="Images/Oceans.jpg" alt="oceans"></a>
+		<figcaption>Oceans</figcaption>
+		</figure>
+		<figure>
+			<img class="active" src="Images/Mountains.jpg" alt="mountains">
+		<figcaption>Mountains</figcaption>
+			</figure>
+		
+		</header>
+		<main>
+			<div class="X" onclick="goBack()"><a href="#">X</a></div>			
+				<img class="expand1" onclick="bigPic1()" src="Images/Mountains1.jpg" alt="mountains1">
+				<img class="expand2" onclick="bigPic2()" src="Images/Mountains2.jpg" alt="mountains2">
+				<img class="expand3" onclick="bigPic3()" src="Images/Mountains3.jpg" alt="mountains3">
+				<img class="expand4" onclick="bigPic4()" src="Images/Mountains4.jpg" alt="mountains4">
+				<img class="expand5" onclick="bigPic5()" src="Images/Mountains5.jpg" alt="mountains5">
+				<img class="expand6" onclick="bigPic6()" src="Images/Mountains6.jpg" alt="mountains6">
+			
+		</main>
+			
+		</div>	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	</body>
+</html>
